@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    width: 5px; /* Change the width to your desired value */
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #0c0c0c; /* You can change the background color */
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #050505; /* You can change the thumb color */
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #262626; /* Change the hover color if needed */
+  }
+
+  /* Firefox */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #0f0e0e #0a0a0a; /* thumb color and track color */
+  }
+  
+  
